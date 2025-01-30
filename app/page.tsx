@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useRouter } from "next/navigation";
-import { UserButton, useUser, SignInButton, SignUpButton } from "@clerk/nextjs";
+import { UserButton, useUser } from "@clerk/nextjs";
 
 // Animations variants
 const fadeIn = {
@@ -61,7 +61,7 @@ export default function LandingPage() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <motion.div
             className="flex items-center"
             whileHover={{ scale: 1.05 }}
