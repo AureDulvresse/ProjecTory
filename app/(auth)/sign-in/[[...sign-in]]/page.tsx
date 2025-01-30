@@ -35,21 +35,6 @@ export default function SignInPage() {
         <SignIn
           appearance={{
             baseTheme: dark,
-            elements: {
-              formButtonPrimary:
-                "bg-primary hover:bg-primary/90 text-primary-foreground",
-              card: "bg-background border shadow-md",
-              headerTitle: "text-foreground",
-              headerSubtitle: "text-muted-foreground",
-              socialButtonsBlockButton:
-                "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
-              formFieldLabel: "text-foreground",
-              formFieldInput:
-                "bg-background border border-input focus:border-primary",
-              footerActionLink: "text-primary hover:text-primary/90",
-              dividerLine: "bg-border",
-              dividerText: "text-muted-foreground",
-            },
           }}
         />
       </motion.div>
